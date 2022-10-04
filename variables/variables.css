@@ -1,0 +1,12 @@
+:root {
+  /* Цвета */
+  --color-bg: #2a2c2f;
+  --color-white: #fff;
+  --color-gray: #aaa;
+
+    /* Шрифт */
+  --font-family-base: 'Inter', 'Arial' sans-serif;
+
+  /* Section */
+  --section-padding: 16px;
+}

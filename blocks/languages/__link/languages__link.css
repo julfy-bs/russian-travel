@@ -1,0 +1,13 @@
+.languages__link {
+  text-decoration: none;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 1.11;
+  color: var(--color-white);
+  transition: opacity .3s ease-in-out;
+}
+
+.languages__link:hover {
+  cursor: pointer;
+  opacity: .5;
+}

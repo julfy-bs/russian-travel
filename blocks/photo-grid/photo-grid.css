@@ -1,0 +1,7 @@
+.photo-grid {
+  box-sizing: border-box;
+  padding: 0 var(--section-padding);
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(var(--photo-grid-item-max-width), 1fr));
+  gap: var(--photo-grid-gap);
+}

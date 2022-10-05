@@ -5,8 +5,16 @@
   --color-gray: #aaa;
 
     /* Шрифт */
-  --font-family-base: 'Inter', 'Arial' sans-serif;
+  --font-family-base: 'Inter', 'Arial', sans-serif;
+
+  /* Page */
+  --page-padding: 16px;
+  --page-content-vertical-padding-top: 48px;
+  --page-content-vertical-padding-bottom: 40px;
 
   /* Section */
   --section-padding: 16px;
+  /* Photo-grid */
+  --photo-grid-item-max-width: 288px;
+  --photo-grid-gap: 12px;
 }

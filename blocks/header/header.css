@@ -1,0 +1,6 @@
+.header {
+  width: calc(100% - 2 * var(--section-padding));
+  display: flex;
+  justify-content: space-between;
+  min-height: 42px;
+}

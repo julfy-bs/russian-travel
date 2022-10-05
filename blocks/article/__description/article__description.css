@@ -1,0 +1,9 @@
+.article__description {
+  padding: 0 var(--section-padding);
+  margin: 0;
+  line-height: 1.63;
+}
+
+.article__description:not(:first-of-type) {
+  margin-top: 25px;
+}

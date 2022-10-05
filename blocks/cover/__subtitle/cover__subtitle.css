@@ -1,0 +1,8 @@
+.cover__subtitle {
+  box-sizing: border-box;
+  padding: 0 var(--section-padding);
+  margin: 0;
+  font-size: 14px;
+  line-height: 1.14;
+  text-align: center;
+}

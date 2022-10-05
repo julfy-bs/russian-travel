@@ -1,0 +1,6 @@
+.article__website {
+  padding: 0 var(--section-padding);
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}

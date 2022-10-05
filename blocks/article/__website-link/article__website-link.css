@@ -1,0 +1,13 @@
+.article__website-link {
+  width: fit-content;
+  font-size: 18px;
+  line-height: 1.22;
+  text-decoration-line: underline;
+  color: var(--color-white);
+  transition: opacity .3s ease-in-out;
+}
+
+.article__website-link:hover {
+  cursor: pointer;
+  opacity: .5;
+}

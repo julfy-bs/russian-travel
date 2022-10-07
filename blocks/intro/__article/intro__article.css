@@ -1,0 +1,12 @@
+.intro__article {
+  display: flex;
+  flex-direction: column;
+  row-gap: 40px;
+}
+
+@media (min-width: 1024px) {
+  .intro__article {
+    width: 100%;
+    max-width: 690px;
+  }
+}

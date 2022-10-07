@@ -11,3 +11,9 @@
   cursor: pointer;
   opacity: .5;
 }
+
+@media (min-width: 768px) {
+  .languages__link {
+    font-size: 24px;
+  }
+}

@@ -1,5 +1,16 @@
 .intro {
   box-sizing: border-box;
+  padding: 0 var(--section-padding);
   display: flex;
   flex-direction: column;
+}
+
+
+@media (min-width: 1280px) {
+  .intro {
+    padding: 0;
+    margin: 0 auto;
+    width: 100%;
+    max-width: 984px;
+  }
 }

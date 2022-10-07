@@ -1,4 +1,5 @@
 .cover__background {
+  height: 50vw;
   min-height: 200px;
   color: #fff;
   text-decoration: none;
@@ -27,4 +28,17 @@
 
 .cover__background:hover::before {
   opacity: .8;
+}
+
+@media (min-width: 768px) {
+  .cover__background {
+    row-gap: 32px;
+    min-height: 480px;
+  }
+}
+
+@media (min-width: 1024px) {
+  .cover__background {
+    min-height: 640px;
+  }
 }

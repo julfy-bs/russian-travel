@@ -7,3 +7,10 @@
   line-height: 1.09;
   text-align: center;
 }
+
+@media (min-width: 768px) {
+  .cover__title {
+    font-size: 72px;
+    line-height: 1.06;
+  }
+}

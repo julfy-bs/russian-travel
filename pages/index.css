@@ -15,12 +15,14 @@
 @import '../blocks/lead/__image/lead__image.css';
 @import '../blocks/lead/__caption/lead__caption.css';
 @import '../blocks/intro/intro.css';
+@import '../blocks/intro/__article/intro__article.css';
+@import '../blocks/intro/__title/intro__title.css';
+@import '../blocks/intro/__description/intro__description.css';
 @import '../blocks/intro/__features-list/intro__features-list.css';
 @import '../blocks/intro/__features-item/intro__features-item.css';
 @import '../blocks/intro/__features-key/intro__features-key.css';
 @import '../blocks/photo-grid/photo-grid.css';
 @import '../blocks/photo-grid/__item/photo-grid__item.css';
-
 @import '../blocks/article/article.css';
 @import '../blocks/article/__title/article__title.css';
 @import '../blocks/article/__description/article__description.css';
@@ -39,3 +41,5 @@
 @import '../blocks/footer/__item/footer__item.css';
 @import '../blocks/footer/__link/footer__link.css';
 @import '../blocks/footer/__copyright/footer__copyright.css';
+@import '../blocks/footer/__author/footer__author.css';
+

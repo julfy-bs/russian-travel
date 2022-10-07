@@ -2,3 +2,21 @@
   box-sizing: border-box;
   margin: 40px 0 0;
 }
+
+@media (min-width: 768px) {
+  .lead__image-group {
+    margin-top: 56px;
+  }
+}
+
+@media (min-width: 1024px) {
+  .lead__image-group {
+    padding: 0 var(--section-padding);
+  }
+}
+
+@media (min-width: 1280px) {
+  .lead__image-group {
+    padding: 0;
+  }
+}

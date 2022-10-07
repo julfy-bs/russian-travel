@@ -1,7 +1,20 @@
 .lead__title {
+  padding: 0 var(--section-padding);
   margin: 0;
   font-weight: 900;
   font-size: 40px;
   line-height: 1.1;
   text-align: center;
+}
+
+@media (min-width: 768px) {
+  .lead__title {
+    font-size: 96px;
+  }
+}
+
+@media (min-width: 1280px) {
+  .lead__title {
+    padding: 0;
+  }
 }

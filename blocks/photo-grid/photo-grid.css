@@ -5,3 +5,10 @@
   grid-template-columns: repeat(auto-fit, minmax(var(--photo-grid-item-max-width), 1fr));
   gap: var(--photo-grid-gap);
 }
+
+@media (min-width: 1280px) {
+  .photo-grid {
+    max-width: 1184px;
+    padding: 0;
+  }
+}

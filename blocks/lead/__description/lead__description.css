@@ -1,4 +1,18 @@
 .lead__description {
+  padding: 0 var(--section-padding);
   margin: 16px 0 0;
   text-align: center;
+}
+
+@media (min-width: 768px) {
+  .lead__description {
+    font-size: 30px;
+    margin-top: 32px;
+  }
+}
+
+@media (min-width: 1280px) {
+  .lead__description {
+    padding: 0;
+  }
 }

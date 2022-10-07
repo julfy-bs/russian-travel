@@ -10,3 +10,9 @@
   cursor: pointer;
   opacity: .5;
 }
+
+@media (min-width: 768px) {
+  .footer__link {
+    font-size: 16px;
+  }
+}

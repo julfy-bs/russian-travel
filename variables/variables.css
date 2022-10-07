@@ -1,10 +1,10 @@
 :root {
-  /* Цвета */
+  /* Color */
   --color-bg: #2a2c2f;
   --color-white: #fff;
   --color-gray: #aaa;
 
-    /* Шрифт */
+  /* Font */
   --font-family-base: 'Inter', 'Arial', sans-serif;
 
   /* Page */
@@ -17,4 +17,34 @@
   /* Photo-grid */
   --photo-grid-item-max-width: 288px;
   --photo-grid-gap: 12px;
+}
+
+@media (min-width: 768px) {
+  :root {
+    /* Section */
+    --section-padding: 24px;
+    /* Photo-grid */
+    --photo-grid-item-max-width: 352px;
+    --photo-grid-gap: 16px;
+  }
+}
+
+@media (min-width: 1024px) {
+  :root {
+    /* Section */
+    --section-padding: 48px;
+    /* Photo-grid */
+    --photo-grid-item-max-width: 300px;
+    --photo-grid-gap: 14px;
+  }
+}
+
+@media (min-width: 1280px) {
+  :root {
+    /* Page */
+    --page-content-vertical-padding-top: 112px;
+    /* Photo-grid */
+    --photo-grid-item-max-width: 284px;
+    --photo-grid-gap: 16px;
+  }
 }

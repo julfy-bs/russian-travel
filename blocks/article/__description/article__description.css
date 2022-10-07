@@ -7,3 +7,15 @@
 .article__description:not(:first-of-type) {
   margin-top: 25px;
 }
+
+@media (min-width: 768px) {
+  .article__description {
+    padding: 0;
+  }
+}
+
+@media (min-width: 1024px) {
+  .article__description {
+    font-size: 18px;
+  }
+}

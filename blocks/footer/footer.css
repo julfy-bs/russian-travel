@@ -6,3 +6,11 @@
   flex-direction: column;
   row-gap: 48px;
 }
+
+@media (min-width: 768px) {
+  .footer {
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+  }
+}

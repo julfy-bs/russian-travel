@@ -5,3 +5,9 @@
   box-sizing: border-box;
   padding: var(--page-content-vertical-padding-top) 0 var(--page-content-vertical-padding-bottom);
 }
+
+@media (min-width: 768px) {
+  .page__content {
+    row-gap: 88px;
+  }
+}

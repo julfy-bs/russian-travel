@@ -10,7 +10,6 @@
   /* Page */
   --page-padding: 16px;
   --page-content-vertical-padding-top: 48px;
-  --page-content-vertical-padding-bottom: 40px;
 
   /* Section */
   --section-padding: 16px;
@@ -42,7 +41,7 @@
 @media (min-width: 1280px) {
   :root {
     /* Page */
-    --page-content-vertical-padding-top: 112px;
+    --page-content-vertical-padding-top: 56px;
     /* Photo-grid */
     --photo-grid-item-max-width: 284px;
     --photo-grid-gap: 16px;

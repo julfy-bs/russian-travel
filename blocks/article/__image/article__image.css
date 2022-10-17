@@ -16,3 +16,10 @@
     max-height: 440px;
   }
 }
+
+@media (min-width: 1280px) {
+  .article__image {
+    max-width: 460px;
+    max-height: 460px;
+  }
+}

@@ -1,6 +1,6 @@
 .footer {
   box-sizing: border-box;
-  padding: 24px var(--section-padding);
+  padding: 64px var(--section-padding) 24px;
   width: 100%;
   display: flex;
   flex-direction: column;
@@ -9,8 +9,15 @@
 
 @media (min-width: 768px) {
   .footer {
+    padding-top: 88px;
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
+  }
+}
+
+@media (min-width: 1024px) {
+  .footer {
+    padding-top: 92px;
   }
 }

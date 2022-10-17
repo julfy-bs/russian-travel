@@ -3,7 +3,7 @@
   flex-direction: column;
   row-gap: 64px;
   box-sizing: border-box;
-  padding: var(--page-content-vertical-padding-top) 0 var(--page-content-vertical-padding-bottom);
+  padding-top: var(--page-content-vertical-padding-top);
 }
 
 @media (min-width: 768px) {

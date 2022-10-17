@@ -3,4 +3,5 @@
   line-height: 1;
   letter-spacing: 2px;
   color: var(--color-gray);
+  text-transform: uppercase;
 }

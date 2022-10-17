@@ -8,7 +8,14 @@
 
 @media (min-width: 768px) {
   .places {
+    gap: 72px;
     padding: 0 var(--section-padding);
+  }
+}
+
+@media (min-width: 1024px) {
+  .places {
+    gap: 80px;
   }
 }
 

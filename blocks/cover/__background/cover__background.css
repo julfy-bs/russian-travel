@@ -1,5 +1,4 @@
 .cover__background {
-  height: 50vw;
   min-height: 200px;
   color: #fff;
   text-decoration: none;
@@ -40,5 +39,11 @@
 @media (min-width: 1024px) {
   .cover__background {
     min-height: 640px;
+  }
+}
+
+@media (min-width: 1280px) {
+  .cover__background {
+    min-height: 740px;
   }
 }
